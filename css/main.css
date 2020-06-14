@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#player {
+    left: 1px;
+    background-color: white;
+    border: 1px black solid;
+    width: auto;
+    margin: 20px 40px 20px 0px;
+    padding: 20px;
+}
+
+.form-item {
+    padding: 10px;
+    display:inline-grid;
+}
+
+#buttons {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#creator {
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    font-size: 16pt ;
+}
